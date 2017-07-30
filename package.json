@@ -1,0 +1,43 @@
+{
+  "name": "npm-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "lint-staged": {
+    "src/**/*.js": [
+      "prettier --single-quote --no-semi --trailing-comma all --write",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "precommit": "lint-staged",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "eslintConfig": {
+    "extends": "airbnb",
+    "semi": ["error", "never"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "INSERT URL"
+  },
+  "keywords": [],
+  "author": "Geoffrey Yip",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^4.0.2",
+    "prettier": "^1.5.3",
+    "react-scripts": "^1.0.10"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0"
+  }
+}
