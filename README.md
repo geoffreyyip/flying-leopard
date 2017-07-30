@@ -5,6 +5,7 @@ Personal React boilerplate. Slightly extends create-react-app
 
 - Copy `package.json` to your git repo. Type `npm i`. Sit back and wait.
 - Copy `.gitignore` if you don't already have one.
+- Create `src/` and `public/` folders.
 
 ## Notes
 
