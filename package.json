@@ -1,5 +1,5 @@
 {
-  "name": "npm-sandbox",
+  "name": "",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,11 +17,14 @@
   },
   "eslintConfig": {
     "extends": "airbnb",
-    "semi": ["error", "never"]
+    "semi": [
+      "error",
+      "never"
+    ]
   },
   "repository": {
     "type": "git",
-    "url": "INSERT URL"
+    "url": ""
   },
   "keywords": [],
   "author": "Geoffrey Yip",
@@ -31,6 +34,8 @@
     "husky": "^0.14.3",
     "lint-staged": "^4.0.2",
     "prettier": "^1.5.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
     "react-scripts": "^1.0.10"
   },
   "devDependencies": {
